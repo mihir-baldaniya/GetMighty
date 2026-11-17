@@ -1,0 +1,567 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(../../public/fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url(../../public/fonts/Gilroy-Semibold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../../public/fonts/Gilroy-Medium.ttf);
+}
+
+body {
+  background-color: #f7efe2;
+}
+
+/* header */
+
+.header {
+  padding: 30px;
+}
+
+/* header */
+
+/* hero */
+
+.hero-main {
+  background-color: #df6651;
+  border-radius: 14px;
+  padding: 58px 50px;
+}
+
+.hero-header {
+  font-family: "Gilroy-Bold";
+  font-size: 40px;
+  color: #091026;
+  padding-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-family: "Gilroy-Semibold";
+  font-size: 30px;
+  color: #f7efe1;
+  padding-bottom: 20px;
+}
+
+.hero-subtitle-2 {
+  font-family: "Gilroy-Medium";
+  font-size: 24px;
+  color: #f7efe1;
+}
+
+.second {
+  margin-top: 25px;
+  background-color: #51a380;
+  border-radius: 14px;
+  padding: 54px 50px;
+}
+
+.second-header {
+  font-family: "Gilroy-Bold";
+  font-size: 40px;
+  color: #df6651;
+  padding-bottom: 10px;
+}
+
+.hero2-img {
+  padding: 0px 50px 0px 50px;
+}
+
+.second-header1 {
+  font-family: "Gilroy-Bold";
+  font-size: 30px;
+  color: #f7efe1;
+  padding-bottom: 30px;
+}
+
+.second-subtitle {
+  font-family: "Gilroy-Medium";
+  font-weight: 500;
+  font-size: 24px;
+  color: #f7efe1;
+  padding-bottom: 25px;
+}
+.third {
+  border-radius: 14px;
+  padding: 20px 10px;
+}
+.box1 {
+  background-color: #002856;
+  border-radius: 14px;
+  padding: 58px 50px 0px 50px;
+  margin-right: 10px;
+}
+
+.box2 {
+  background-color: #f7efe1;
+  border-radius: 14px;
+  border: #091026 solid 2px;
+  padding: 0px;
+}
+.third-header {
+  color: #df6651;
+  font-family: "Gilroy-Bold";
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.third-header1 {
+  color: #f7efe1;
+  font-family: "Gilroy-Bold";
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.third-subtitle {
+  color: #f7efe1;
+  font-family: "Gilroy-Medium";
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.four {
+  border-radius: 14px;
+  margin-left: 10px;
+}
+
+.four_box {
+  background-color: #dfdbd2;
+  border-radius: 14px;
+  margin-right: 10px;
+}
+.four-con {
+  margin: 0px;
+}
+.hero4-img {
+  margin: 0px 50px 0px 50px;
+}
+.hero5-img {
+  margin: 0px 50px 0px 50px;
+}
+.hero6-img {
+  margin: 0px 50px 0px 50px;
+}
+
+.bg1 {
+  padding: 25px 29px 10px 34px;
+  background-image: url(../../public/img/hero7.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.bg2 {
+  padding: 0px;
+  background-image: url(../../public/img/hero8.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  object-fit: cover;
+  background-color: #dfdbd2;
+  border-radius: 14px;
+  margin-right: 10px;
+}
+
+.four-box {
+  padding: 25px 29px 10px 34px;
+}
+.bg3 {
+  padding: 25px 29px 10px 34px;
+  background-image: url(../../public/img/hero9.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.four-header {
+  font-family: "Gilroy-Medium";
+  font-size: 20.4px;
+  color: #af5a6a;
+}
+
+.four-header1 {
+  font-family: "Gilroy-Bold";
+  font-size: 25.5px;
+  color: #0f2032;
+  padding-bottom: 15px;
+}
+
+.four-subtitle {
+  font-family: "Gilroy-Medium";
+  font-size: 18.7px;
+  color: #898482;
+}
+.four-subtitle1 {
+  font-family: "Gilroy-Medium";
+  font-size: 20px;
+  color: #df6651;
+}
+.five {
+  border-radius: 14px;
+  padding: 20px 10px;
+}
+
+.five-box1 {
+  background-color: #f7efe2;
+  border-radius: 14px;
+  border: #0a7b69 solid 2px;
+  padding: 0px;
+  margin-right: 10px;
+}
+.five-box2 {
+  background-color: #0a7b69;
+  border-radius: 14px;
+  padding: 50px 25px 0px 25px;
+}
+
+.five-con {
+  padding: 58px 50px;
+}
+.five-header {
+  font-family: "Gilroy-Bold";
+  font-size: 38px;
+  color: #1c7563;
+  margin-bottom: -8px;
+}
+.five-header1 {
+  font-family: "Gilroy-Bold";
+  font-size: 30px;
+  color: #1c7563;
+  margin-bottom: 50px;
+}
+.five-header2 {
+  font-family: "Gilroy-Medium";
+  font-size: 25px;
+  color: #1f2235;
+}
+
+.six {
+  background-color: #b8405b;
+  border-radius: 14px;
+  padding: 58px 50px;
+}
+
+.six-header {
+  font-family: "Gilroy-Bold";
+  font-size: 40px;
+  color: #f7efe1;
+  padding-bottom: 10px;
+}
+
+.six-subtitle1 {
+  font-family: "Gilroy-Bold";
+  font-size: 30px;
+  color: #f7efe1;
+  padding-bottom: 30px;
+}
+
+.six-subtitle2 {
+  font-family: "Gilroy-Medium";
+  font-size: 24px;
+  color: #f7efe1;
+}
+.hero11-img {
+  padding: 25px;
+}
+.seven {
+  border-radius: 14px;
+  padding: 20px 10px;
+}
+.seven-box1 {
+  background-color: #090f25;
+  border-radius: 14px;
+  padding: 58px 50px 0px 50px;
+  margin-right: 10px;
+}
+
+.seven-box2 {
+  background-color: #f7efe1;
+  border-radius: 14px;
+  border: #091026 solid 2px;
+  padding: 0px;
+}
+.seven-header {
+  color: #f7efe1;
+  font-family: "Gilroy-Bold";
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.seven-subtitle {
+  color: #f7efe1;
+  font-family: "Gilroy-Medium";
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+span {
+  color: #d07058;
+  cursor: pointer;
+}
+.eight-con {
+  padding: 0px;
+}
+.eight-main {
+  background-color: #df6651;
+  border-radius: 14px;
+  padding: 58px 50px;
+}
+
+.eight-header {
+  font-family: "Gilroy-Bold";
+  font-size: 40px;
+  color: #f7efe1;
+  padding-bottom: 20px;
+}
+
+.eight-subtitle1 {
+  font-family: "Gilroy-Medium";
+  font-size: 24px;
+  color: #f7efe1;
+  margin-bottom: 0px;
+}
+.hero13-img {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nine {
+  border-radius: 14px;
+  padding: 20px 10px 0px 10px;
+}
+.nine-box1 {
+  background-color: #0a7b69;
+  border-radius: 14px;
+  padding: 58px 50px 50px 50px;
+  margin-right: 10px;
+}
+
+.nine-box2 {
+  background-color: #f7efe1;
+  border-radius: 14px;
+  border: #0a7b69 solid 2px;
+  padding: 0px;
+}
+.nine-header {
+  color: #f7efe1;
+  font-family: "Gilroy-Bold";
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.nine-subtitle1 {
+  color: #f7efe1;
+  font-family: "Gilroy-Medium";
+  font-size: 24px;
+  line-height: 40px;
+  margin: 0px;
+}
+.ten {
+  padding: 10px;
+  /* margin: 0px -10px; */
+  margin: 10px 0px 30px 0px;
+}
+
+.ten-box1 {
+  background: #b8405b;
+  border-radius: 14px;
+  padding: 40px 50px 60px;
+}
+
+.ten-header {
+  color: #fff;
+  font-size: 42px;
+  font-family: "Gilroy-Bold";
+  margin-bottom: 40px;
+}
+
+.ten-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.ten-img {
+  width: 270px;
+  height: 95px;
+  border: 2px solid #fff;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* .hero-svg {
+  width: 60px;
+  height: auto;
+} */
+
+.ten-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Gilroy-Bold";
+  margin: 0;
+}
+
+/* hero */
+
+/* footer */
+
+.footer {
+  background-color: #002856;
+  display: flex;
+}
+.footer-header{
+  font-size: 24px;
+}
+.footer-con1 {
+  font-family: "Gilroy-Bold";
+  color: white;
+  font-size: 2px;
+  margin: 47px 50px 50px 45px;
+}
+.footer-con2 {
+  font-family: "Gilroy-Bold";
+  color: white;
+  font-size: 24px;
+  margin: 47px 50px 47px 300px;
+  line-height: 100%;
+  opacity: 1;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.footer-btn{
+  font-size: 24px;
+}
+.footer-btn:hover {
+  transform: scale(0.95);
+  opacity: 0.8;
+}
+.footer-con3 {
+  display: flex;
+  align-items: center;
+  scale: 2;
+  margin-left: 300px;
+}
+.footer-img {
+  padding: 8px;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+
+}
+
+.footer-img1 {
+  border: white solid 1px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.copyright {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  margin: 20px 20px 150px 20px;
+}
+/* footer */
+
+/* career page */
+
+
+.main-box{
+  background-color: #002856;
+  margin-bottom: 20px;
+  border-radius: 14px;
+  padding: 58px 50px ;
+}
+.career-con{
+ padding: 0px;
+
+}
+.career-heading{
+  
+  font-family: "Gilroy-Bold";
+  color:#dd6655;
+  font-size: 40px;
+  padding: 0;
+}
+.careertext-1{
+    font-family: "Gilroy-Medium";
+    color: white;
+    font-size: 24px;
+    padding-bottom: 50px;
+
+}
+.Card-title{
+  font-family: "Gilroy-Bold";
+  color:#002856;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.card-para{
+  font-family: "Gilroy-Medium";
+  color:#002856;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.card-link{
+  text-decoration: none;
+  font-family: "Gilroy-Bold";
+  color:#DF6651;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.card-body{
+  background-image: url(../../public/img/career-bgimg.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.card1 ,.card2 , .card3{
+  margin:5px  10px 10px 0px ;
+}
+
+
+.card3{
+  margin-right: 50px;
+}
+.career-para2{
+  font-family: "Gilroy-Medium";
+  color:white;
+  font-size: 18px;
+  margin:30px 0px  60px 0px;
+}
+a{
+  color:#DF6651;
+}
+/* .search-box {
+    width: 300px;
+    height: 52px;
+    background: #3E5D89;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    gap: 12px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+}
+
+.search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.search-box input::placeholder {
+    color: rgba(255,255,255,0.7);
+} */
+
+/* career page */
+
+
