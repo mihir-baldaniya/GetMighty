@@ -1,0 +1,168 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f6f8fc;
+}
+
+/* ===========================
+   Form Container
+=========================== */
+
+.employee-container{
+    max-width:850px;
+    margin:40px auto;
+    padding:30px;
+    background:#ffffff;
+    border:1px solid #e6ebf2;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* ===========================
+   Heading
+=========================== */
+
+.form-title{
+    text-align:center;
+    color:#3f4d67;
+    font-size:30px;
+    font-weight:600;
+    margin-bottom:30px;
+}
+
+/* ===========================
+   Form Rows
+=========================== */
+
+.form-row{
+    align-items:center;
+    margin-bottom:18px;
+}
+
+/* ===========================
+   Labels
+=========================== */
+
+.form-label-col label{
+    font-size:16px;
+    font-weight:500;
+    color:#4a5568;
+}
+
+/* ===========================
+   Inputs
+=========================== */
+
+.form-input,
+.form-select-box,
+.form-textarea{
+    width:100%;
+    border:1px solid #d9e2ec !important;
+    border-radius:8px !important;
+    padding:10px 14px !important;
+    background:#fbfcfe !important;
+    transition:0.3s;
+}
+
+.form-input:focus,
+.form-select-box:focus,
+.form-textarea:focus{
+    border-color:#7ea9ff !important;
+    box-shadow:0 0 0 3px rgba(126,169,255,.18) !important;
+}
+
+/* ===========================
+   Radio Buttons
+=========================== */
+
+.gender-group{
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
+
+.gender-option label{
+    color:#555;
+}
+
+/* ===========================
+   Button
+=========================== */
+
+.button-row{
+    margin-top:30px;
+}
+
+.button-col{
+    text-align:center;
+}
+
+
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width:768px){
+
+    .employee-container{
+        margin:20px;
+        padding:20px;
+    }
+
+    .form-title{
+        font-size:24px;
+    }
+
+    .form-row{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .form-label-col{
+        margin-bottom:8px;
+    }
+
+    .form-input-col{
+        width:100%;
+    }
+
+    .gender-group{
+        flex-wrap:wrap;
+        gap:12px;
+    }
+
+    /* .submit-btn{
+        width:100%;
+    } */
+}
+
+@media (max-width:576px){
+
+    .employee-container{
+        margin:15px;
+        padding:15px;
+    }
+
+    .form-title{
+        font-size:22px;
+    }
+
+    .form-label-col label{
+        font-size:15px;
+    }
+
+    .form-input,
+    .form-select-box,
+    .form-textarea{
+        font-size:14px;
+    }
+}
